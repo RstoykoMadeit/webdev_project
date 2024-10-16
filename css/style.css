@@ -16,10 +16,10 @@ nav  ul {
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
+	display:flex;
 }
 
 nav ul li {
-	float: center;
 	margin: 0 15px;
 	text-align: center;
 }
