@@ -51,4 +51,10 @@ nav ul li a:hover {
 h3 {
 	font-size: 20px;
 	text-align: center;
+	border: 20 px white;
+	padding: 10px;
+}
+
+img {
+	margin: 0 auto;
 }
