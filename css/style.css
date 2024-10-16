@@ -72,4 +72,5 @@ img {
 .red-box {
 	border:2px solid red;
 	text-align: center;
+	list-style-type: none;
 }
