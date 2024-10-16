@@ -5,7 +5,7 @@ body {
 	margin: 0;
 	padding: 20px;
 	background-color: black;
-	color: #333
+	color: white;
 	
 }
 
@@ -19,7 +19,7 @@ nav  ul {
 }
 
 nav ul li {
-	float: left;
+	float: center;
 	margin: 0 15px;
 	text-align: center;
 }
