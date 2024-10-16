@@ -68,6 +68,7 @@ img {
 }
 
 .red-box {
+	margin: 10px top; 
 	border:8px solid red;
 	text-align: center;
 }
