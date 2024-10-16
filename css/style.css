@@ -82,6 +82,7 @@ img {
 .white-box {
 	border:2px solid white;
 	text-align: center;
+	padding: 10px 10px 10px 10px;
 }
 
 iframe {
