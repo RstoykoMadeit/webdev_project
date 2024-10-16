@@ -35,3 +35,10 @@ nav ul li a {
 	padding: 10px 0px 8px 0px;
 	border-radius: 2px;
 }
+
+#main-box {
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 10px;
+	background: red;
+}
