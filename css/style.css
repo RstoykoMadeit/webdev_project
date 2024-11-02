@@ -1,9 +1,9 @@
 body {
 	font-family: "Train One", system-ui;
-  font-weight: 400;
+  font-size: 1rem;
   font-style: normal;
 	margin: 0;
-	padding: 20px;
+	padding: 2%;
 	background-color: black;
 	color: white;
 	
