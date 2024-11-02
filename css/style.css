@@ -17,10 +17,10 @@ nav  ul {
 	margin: 0;
 	overflow: hidden;
 	display:flex;
+	justify-content: center;
 }
 
 nav ul li {
-	margin: 0 60px;
 	text-align: center;
 }
 
@@ -31,9 +31,9 @@ nav ul li a {
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
-	width: 100px;
-	padding: 10px 0;
-	border-radius: 2px;
+	width: 5rem;
+	padding: 1rem;
+	border-radius: 0.2rem;
 }
 
 nav ul li a:hover {
@@ -41,11 +41,11 @@ nav ul li a:hover {
 }
 
 #main-box {
-	margin: 20px auto;
-	padding: 20px;
-	border-radius: 10px;
+	margin: 2% auto;
+	padding: 2%;
+	border-radius: 1.2rem;
 	background: red;
-	border: 2px solid #fff;
+	border: 0.2rem solid #fff;
 }
 
 h3 {
