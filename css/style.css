@@ -18,10 +18,12 @@ nav  ul {
 	overflow: hidden;
 	display:flex;
 	justify-content: center;
+	
 }
 
 nav ul li {
 	text-align: center;
+	margin: 0 1rem;
 }
 
 nav ul li a {
