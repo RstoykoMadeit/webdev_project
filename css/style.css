@@ -126,7 +126,7 @@ iframe {
 }
 
 .need-more  {
-	border: 8px solid white;
+	outline: 8px dashed white;
 	border: 7px solid red;
 	border-radius: 10px;
 	text-align: center;
