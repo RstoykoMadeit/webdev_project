@@ -100,8 +100,8 @@ iframe {
 	
 }
 
-.float-right {
-	float: right;
+.float-left {
+	float: left;
 	width: 40%;
 	background-color: red;
 }
