@@ -112,3 +112,9 @@ iframe {
 	color: black;
 	background-color: white;
 }
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
