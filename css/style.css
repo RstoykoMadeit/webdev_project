@@ -99,3 +99,9 @@ iframe {
 	border-radius: 10px;
 	
 }
+
+.float-right {
+	float: right;
+	width: 40%;
+	background-color: red;
+}
