@@ -125,5 +125,11 @@ iframe {
 	clear: both;
 }
 
+.need-more  {
+	border: 4px solid white;
+	border: 8px solid red;
+	border-radius: 10px;
+	text-align: center;
+}
 
 
