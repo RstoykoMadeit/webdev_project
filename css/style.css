@@ -102,7 +102,7 @@ iframe {
 
 .float-left {
 	float: left;
-	width: 75%;
+	width: 50%;
 	background-color: red;
 	text-align: center;
 }
@@ -120,3 +120,4 @@ iframe {
 	display: table;
 	clear: both;
 }
+
