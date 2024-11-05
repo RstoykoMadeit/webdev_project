@@ -105,3 +105,10 @@ iframe {
 	width: 25%;
 	background-color: red;
 }
+
+.float-right {
+	float: right;
+	width: 25%;
+	color: black;
+	background-color; white;
+}
