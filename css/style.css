@@ -132,4 +132,9 @@ iframe {
 	text-align: center;
 }
 
+#map {
+	height: 300px;
+	width: 200px;
+}
+
 
