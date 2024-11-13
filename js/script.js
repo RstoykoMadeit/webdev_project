@@ -14,5 +14,6 @@ for (var place in positions) {
 	  position: position,
 	  map: map,
 		title: place
-});
+  });
+  }
 }
