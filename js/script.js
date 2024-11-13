@@ -5,7 +5,7 @@ function initMap() {
   });
 }
 
-const marker = new AdvancedMarkerElement({
-  map,
+var marker = new google.maps.Marker({
   position: { lat: 0, lng: 0},
+	map: map,
 });
