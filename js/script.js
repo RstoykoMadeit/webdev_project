@@ -4,3 +4,8 @@ function initMap() {
     center: { lat: 0, lng: 0},
   });
 }
+
+const marker = new AdvancedMarkerElement({
+  map,
+  position: { lat: 0, lng: 0},
+});
