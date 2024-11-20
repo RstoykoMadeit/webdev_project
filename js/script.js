@@ -13,7 +13,9 @@ for (var place in positions) {
   new google.maps.Marker({
 	  position: position,
 	  map: map,
-		title: place
+		title: place,
   });
+	
+	marker.setAnimation(google.maps.Animation.BOUNCE);
   }
 }
