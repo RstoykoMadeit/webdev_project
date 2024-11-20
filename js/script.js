@@ -17,6 +17,14 @@ for (var place in positions) {
 		title: place,
   });
 	
-	marker.setAnimation(google.maps.Animation.BOUNCE);
+	marker.setAnimation(google.maps.Animation.BOUNCE
+	
+	var inforWindow = new google.maps.InfoWindow({
+		content:  `<h3>${place}</h3><p>Coordinates: ${position.lat}, ${position.lng}</p>`
+	}):
+	
+	marker.addListener('click', function() {
+		InfoWindow.open(map, this);
+	});
   }
 }
