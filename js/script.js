@@ -4,10 +4,6 @@ var positions = {
 	"IIT Tower": {lat: 41.833811, lng:  -87.626932}
 };
 
-var purpleIcon = {
-	url: "http://maps.google.com/mapfiles/ms/icons/purple-dot.png",
-});
-
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 8,
@@ -19,7 +15,6 @@ for (var place in positions) {
 	  position: position,
 	  map: map,
 		title: place,
-		icon: purpleIcon
   });
 	
 	//marker.setAnimation(google.maps.Animation.BOUNCE);
