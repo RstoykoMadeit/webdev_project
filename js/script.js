@@ -4,8 +4,9 @@ var positions = {
 	"IIT Tower": {lat: 41.833811, lng:  -87.626932}
 };
 
-const pinGlyph = new PinElement({
-	glyphColor: 'purple'
+var purpleIcon = {
+	url: "http://maps.google.com/mapfiles/ms/icons/purple-dot.png",
+        scaledSize: new google.maps.Size(32, 32),
 });
 
 function initMap() {
@@ -19,7 +20,7 @@ for (var place in positions) {
 	  position: position,
 	  map: map,
 		title: place,
-		content: pinGlyph.element,
+		icon: purpleIcon
   });
 	
 	//marker.setAnimation(google.maps.Animation.BOUNCE);
