@@ -11,12 +11,12 @@ function initMap() {
   });
 for (var place in positions) {
   var position = positions[place]; 
-  new google.maps.Marker({
+  var marker = new google.maps.Marker({
 	  position: position,
 	  map: map,
 		title: place,
   });
 	
-	//marker.setAnimation(google.maps.Animation.BOUNCE);
+	marker.setAnimation(google.maps.Animation.BOUNCE);
   }
 }
