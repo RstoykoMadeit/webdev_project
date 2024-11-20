@@ -6,7 +6,6 @@ var positions = {
 
 var purpleIcon = {
 	url: "http://maps.google.com/mapfiles/ms/icons/purple-dot.png",
-        scaledSize: new google.maps.Size(32, 32),
 });
 
 function initMap() {
