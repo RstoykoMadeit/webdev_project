@@ -13,7 +13,10 @@ function initMap() {
   for (var place in positions) {
     var position = positions[place];
 		
-    var markerIcon = "images/mask.jpg";
+    var markerIcon = {
+			url: "images/mask.jpg",
+		  scaledSize: new google.maps.Size(30, 30)
+		};
 		
     var marker = new google.maps.Marker({
 	    position: position,
