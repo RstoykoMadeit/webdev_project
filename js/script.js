@@ -15,7 +15,7 @@ function initMap() {
 		
     var markerIcon = {
 			url: "images/mask.jpg",
-		  scaledSize: new google.maps.Size(90, 90)
+		  scaledSize: new google.maps.Size(60, 60)
 		};
 		
     var marker = new google.maps.Marker({
