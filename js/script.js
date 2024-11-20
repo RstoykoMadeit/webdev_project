@@ -20,9 +20,9 @@ function initMap() {
 	
 	 marker.setAnimation(google.maps.Animation.BOUNCE);
 	
-	  var inforWindow = new google.maps.InfoWindow({
+	  var infoWindow = new google.maps.InfoWindow({
 		  content: `<h3>${place}</h3><p>Coordinates: ${position.lat}, ${position.lng}</p>`
-	 }):
+	 });
 	
 	  marker.addListener('click', function() {
 		  infoWindow.open(map, this);
