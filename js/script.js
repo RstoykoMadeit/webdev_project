@@ -11,17 +11,21 @@ function initMap() {
   });
 	
   for (var place in positions) {
-    var position = positions[place]; 
+    var position = positions[place];
+		
+    var markerIcon = "images/mask.jpg";
+		
     var marker = new google.maps.Marker({
 	    position: position,
 	    map: map,
 		  title: place,
+			icon: markerIcon
    });
 	
 	 marker.setAnimation(google.maps.Animation.BOUNCE);
 	
 	  var infoWindow = new google.maps.InfoWindow({
-		  content: '<h3>${place}</h3><p>Coordinates: ${position.lat}, ${position.lng}</p>'
+		  content: "<h3${place}</h3><p>Coordinates: ${position.lat}, ${position.lng}</p>"
 	 });
 	
 	  marker.addListener('click', function() {
