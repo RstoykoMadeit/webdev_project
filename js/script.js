@@ -6,25 +6,26 @@ var positions = {
 
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 8,
-    center: positions["6 Flags"]
-  });
-for (var place in positions) {
-  var position = positions[place]; 
-  var marker = new google.maps.Marker({
-	  position: position,
-	  map: map,
-		title: place,
+   zoom: 8,
+   center: positions["6 Flags"]
   });
 	
-	marker.setAnimation(google.maps.Animation.BOUNCE
+  for (var place in positions) {
+    var position = positions[place]; 
+    var marker = new google.maps.Marker({
+	    position: position,
+	    map: map,
+		  title: place,
+   });
 	
-	var inforWindow = new google.maps.InfoWindow({
-		content:  `<h3>${place}</h3><p>Coordinates: ${position.lat}, ${position.lng}</p>`
-	}):
+	 marker.setAnimation(google.maps.Animation.BOUNCE);
 	
-	marker.addListener('click', function() {
-		InfoWindow.open(map, this);
-	});
+	  var inforWindow = new google.maps.InfoWindow({
+		  content: `<h3>${place}</h3><p>Coordinates: ${position.lat}, ${position.lng}</p>`
+	 }):
+	
+	  marker.addListener('click', function() {
+		  infoWindow.open(map, this);
+	  });
   }
 }
