@@ -46,7 +46,7 @@ nav ul li a:hover {
 	margin: 2% auto;
 	padding: 2%;
 	border-radius: 1.2rem;
-	background: red;
+	background: #8B0000;
 	border: 0.2rem solid #fff;
 }
 
@@ -103,7 +103,7 @@ iframe {
 .float-left {
 	float: left;
 	width: 50%;
-	background-color: red;
+	background-color: #8B0000;
 	border: 4px solid white;
 	border-radius: 10px;
 	text-align: center;
